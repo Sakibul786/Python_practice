@@ -14,4 +14,6 @@ elif choice == "2":
     c = float(input("Enter temperature in Celsius: "))
     f = cel_to_fah(c)
     print(f"{c}°C is equal to {f:.2f}°F")
+else:
+    print("Invalid choice. Please enter 1 or 2.")
     
